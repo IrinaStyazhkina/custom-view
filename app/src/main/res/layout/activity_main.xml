@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <irastyazhkina.customview.ui.CustomView
+        android:id="@+id/customView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:textSize="40sp"
+        app:lineWidth="16dp"
+        app:color1="#1e3d59"
+        app:color2="#ed5372"
+        app:color3="#ff6e40"
+        app:color4="#ffc13b"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <irastyazhkina.customview.ui.NotFilledCustomView
+        android:id="@+id/notFilledCustomView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:textSize="40sp"
+        app:lineWidth="16dp"
+        app:color1="#1e3d59"
+        app:color2="#ed5372"
+        app:color3="#ff6e40"
+        app:color4="#ffc13b"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/customView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
