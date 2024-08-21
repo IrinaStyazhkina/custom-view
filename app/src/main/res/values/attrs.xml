@@ -14,6 +14,11 @@
         <attr name="color2"/>
         <attr name="color3"/>
         <attr name="color4"/>
+        <attr name="animationType" format="enum">
+            <enum name="rotation" value="0"/>
+            <enum name="sequential" value="1"/>
+            <enum name="bidirectional" value="2"/>
+        </attr>
     </declare-styleable>
     <declare-styleable name="NotFilledCustomView">
         <attr name="textSize"/>
