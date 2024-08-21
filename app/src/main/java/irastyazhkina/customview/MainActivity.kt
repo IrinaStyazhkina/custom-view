@@ -10,7 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        findViewById<CustomView>(R.id.customView).data = listOf(
+        val view = findViewById<CustomView>(R.id.customView)
+        view.data = listOf(
             500F,
             500F,
             500F,
